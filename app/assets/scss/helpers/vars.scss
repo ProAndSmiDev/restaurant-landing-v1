@@ -1,11 +1,13 @@
-$font: 'YourFont';
+$font: 'Circe', 'Arial', 'Roboto', sans-serif;
 
-// css theme colors
-$theme: 'YourThemeColor';
-$primary: 'YourPrimaryColor';
-$secondary: 'YourSecondaryColor';
+$theme: hsl(32, 88%, 60%);
+$theme2: hsl(79, 69%, 42%);
+$theme3: hsl(216, 100%, 77%);
+$theme4: hsl(50, 100%, 53%);
+$theme5: hsl(0, 81%, 67%);
+$primary: hsl(0, 0%, 0%);
+$secondary: hsl(36, 26%, 93%);
 
-// alternative colors
-$theme_alternate: 'YourThemeAlternateColor';
-$primary_alternate: 'YourPrimaryAlternateColor';
+$theme_alternate: lighten(desaturate($theme, 8%), 23%);
+$primary_alternate: lighten($primary, 7%);
 $secondary_alternate: 'YourSecondaryAlternateColor';

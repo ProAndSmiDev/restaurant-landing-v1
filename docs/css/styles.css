@@ -1,3 +1,31 @@
+@font-face {
+  font-family: "Circe";
+  font-display: swap;
+  font-weight: 200;
+  src: url("../fonts/Circe/Circe-ExtraLight.woff2") format("woff2"), url("../fonts/Circe/Circe-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Circe";
+  font-display: swap;
+  font-weight: 300;
+  src: url("../fonts/Circe/Circe-Light.woff2") format("woff2"), url("../fonts/Circe/Circe-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Circe";
+  font-display: swap;
+  font-weight: 400;
+  src: url("../fonts/Circe/Circe-Regular.woff2") format("woff2"), url("../fonts/Circe/Circe-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Circe";
+  font-display: swap;
+  font-weight: 700;
+  src: url("../fonts/Circe/Circe-Bold.woff2") format("woff2"), url("../fonts/Circe/Circe-Bold.ttf") format("truetype");
+}
+
 @-webkit-keyframes pulse {
   0% {
     -webkit-box-shadow: 0 0 0 0 rgba(253, 228, 165, 0.4);
@@ -142,7 +170,7 @@ footer {
 }
 
 body {
-  font: 16px/1.5 "YourFont", "Arial", "Roboto", sans-serif;
+  font: 16px/1.5 "Circe, Arial, Roboto, sans-serif", "Arial", "Roboto", sans-serif;
 }
 
 .header--is-fixed {
